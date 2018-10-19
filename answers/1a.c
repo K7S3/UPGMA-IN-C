@@ -10,33 +10,7 @@ typedef struct species{
 	char bs[50];
 	char seq[1000];
 }species;
-/*
-void removeAll(char * str, const char toRemove)
-{
-    int i, j;
-    int len = strlen(str);
 
-    for(i=0; i<len; i++)
-    {
-        
-         If the character to remove is found then shift all characters to one
-          place left and decrement the length of string by 1.
-         
-        if(str[i] == toRemove)
-        {
-            for(j=i; j<len; j++)
-            {
-                str[j] = str[j+1];
-            }
-
-            len--;
-
-            // If a character is removed then make sure i doesn't increments
-            i--;
-        }
-    }
-}
-*/
 double matrix[50][50];
 int main()
 {

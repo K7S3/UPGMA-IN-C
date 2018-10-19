@@ -1,0 +1,11 @@
+X,Gallus gallus,Canis lupus familiaris,Labeo rohita,Homo sapiens,Rattus norvegicus,Sus scrofa,Bos taurus,Pan troglodytes,Octodon degus,Oryctolagus cuniculus
+Gallus gallus,0,0,0,0,0,0,0,0,0,0,
+Canis lupus familiaris,0,0,0,0,0,0,0,0,0,0,
+Labeo rohita,0,0,0,0,0,0,0,0,0,0,
+Homo sapiens,0,0,0,0,0,0,0,0,0,0,
+Rattus norvegicus,0,0,0,0,0,0,0,0,0,0,
+Sus scrofa,0,0,0,0,0,0,0,0,0,0,
+Bos taurus,0,0,0,0,0,0,0,0,0,0,
+Pan troglodytes,0,0,0,0,0,0,0,0,0,0,
+Octodon degus,0,0,0,0,0,0,0,0,0,0,
+Oryctolagus cuniculus,0,0,0,0,0,0,0,0,0,0,

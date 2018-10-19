@@ -2,6 +2,7 @@
 #include<math.h>
 #include<stdlib.h>
 #include<string.h>
+
 int main()
 {
 	int var1=1,var2=1;
@@ -17,21 +18,21 @@ int main()
 		if(ch=='\n')
 			no_of_species++;
 	}
-	int var3=0;
+	long long var3=0;
 	no_of_species--;
 	fclose(file);
 	FILE* file2;
 	file2=fopen("Pdistance.txt","rw");
-	int bb=1;
-	int matrix[1007][1007];
+	long long bb=1;
+	long long matrix[1007][1007];
 	char species[1007][1007];
-	int i=-1,j=0;
+	long long i=-1,j=0;
 	double val;
 	char names[100][1007];
-	int ret=1,flag=1;
-	int l=-1,k=-1;
-	int tpl;
-	int aa=1;
+	long long ret=1,flag=1;
+	long long l=-1,k=-1;
+	long long tpl;
+	long long aa=1;
 	if(aa=1)
 	while(ret!=EOF)
 	{
@@ -62,15 +63,13 @@ int main()
 		for(j=0;j<no_of_species;j++)
 			if(i==j)matrix[i][j]=-1;
 	}
-	int max;
-	int hi,li;
-	int num=no_of_species;
-//	char st[1000]="\0";
+	long long max;
+	long long hi,li;
+	long long num=no_of_species;
+
 	char temp[10000];
-//	char tmp[10000];
-//	flag=0;
-//	int added[1000]={0};
-	int adder=0;
+
+	long long adder=0;
 	if(adder==0)
 	while(--num)
 	{	
@@ -87,7 +86,6 @@ int main()
 				}	
 		}
 
-//		printf("Low:%d High:%d\n",li,hi);
 
 		for(i=0;i<no_of_species;i++)
 		{
@@ -104,7 +102,7 @@ int main()
 			matrix[hi][i]=-1;
 			matrix[i][hi]=-1;
 		}
-int bc=1;
+	long long bc=1;
 
 		strcpy(temp,"(\0");
 		bc++;
