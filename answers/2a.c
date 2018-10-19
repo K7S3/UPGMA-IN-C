@@ -93,13 +93,16 @@ var1++;
 		else if(varcheck==1 && c=='\n')
 		{
 			varcheck=0;
+
 			j=0;
+		
 		}
 		else if(varcheck==0)
 		{
 			if(check(c))
 			{
 				seq[i][j++]=c;
+
 			}
 		}
 	}
